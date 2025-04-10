@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # install packages
-packages="tmux git gcc neovim ripgrep fzf"
+packages="tmux git gcc neovim ripgrep fzf musl-dev"
 apk add $packages
 
 # configure
