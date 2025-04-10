@@ -2,7 +2,7 @@
 
 # install packages
 apt update && apt upgrade
-packages="tmux git ninja-build gettext cmake curl build-essential ripgrep fzf"
+packages="tmux git gcc ninja-build gettext cmake curl build-essential ripgrep fzf"
 apt install -y $packages
 
 # install nvim
